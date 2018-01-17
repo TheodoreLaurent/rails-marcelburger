@@ -2,44 +2,22 @@
   <div class="navbar-marcel">
     <div class="navbar-socialive-left">
       <!-- Logo -->
-
       <%#= link_to root_path do %>
       <%#= image_tag("logo-marcel-lg.jpg", size: "25") %>
       <%# end %>
-
-      <%#= link_to "MARCEL", root_path, class:"navbar-socialive-item" %>
+      <%= link_to "Marcel Gourmet Burger", root_path, class:"navbar-socialive-item" %>
     </div>
 
     <!-- Right Navigation -->
     <div class="navbar-marcel-right">
-
       <div class="languages-choice" >
-
-
-        <a id="english" class="" href="/">EN</a> /
-
-
+        <a id="english" class="" href="/">EN</a>
+        /
         <a class="" href="/vn">VN</a>
       </div>
-
         <%#= link_to t(".top_call_to_action", default: "Become a livestreamer"), become_a_livestreamer_path, class: "navbar-socialive-item navbar-socialive-link" %>
-
     </div>
-    <!-- Dropdown list appearing on mobile only -->
-<!--     <div class="navbar-socialive-item hidden-md hidden-lg">
-      <div class="dropdown">
-        <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
-        <ul class="dropdown-menu dropdown-menu-right navbar-socialive-dropdown-menu">
-          <li><a href="/">Home</a></li>
-          <li><a href="/dashboard">Dashboard</a></li>
-          <li><%#= link_to t(".top_call_to_action", default: "FAQs"), faq_path, class: " navbar-socialive-link faq-navbar" %></li>
-          </li>
-        </ul>
-      </div>
-    </div>
- -->
   </div>
-
 </div>
 
 
