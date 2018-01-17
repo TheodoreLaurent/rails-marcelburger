@@ -14,7 +14,7 @@
   justify-content: space-between;
   padding: 10px;
   p {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 300;
     font-family: 'PT Sans', sans-serif;
     letter-spacing: 1px;
@@ -34,4 +34,24 @@
   background-color: $blue;
   margin-bottom: 15px;
   // min-width: 250px;
+}
+
+.coming-soon {
+  position: fixed;
+  top: 250px;
+  width: 426px;
+  padding: 10px;
+  margin: 5% auto; /* Will not center vertically and won't work in IE6/7. */
+  left: 0;
+  right: 0;
+  opacity: 0.9;
+  background-color: $blue;
+  margin-bottom: 15px;
+  h1 {
+    font-size: 28px;
+    margin: 10px 10px 10px 10px;
+  }
+  p {
+    font-size: 18px;
+  }
 }
