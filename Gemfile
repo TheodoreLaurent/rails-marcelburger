@@ -15,6 +15,7 @@ gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'jquery-rails'
 
 gem 'rails-ujs'
 
@@ -23,6 +24,10 @@ group :development do
 end
 
 group :development, :test do
+
+  gem 'binding_of_caller'
+  gem 'better_errors'
+
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'listen', '~> 3.0.5'

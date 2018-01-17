@@ -7,12 +7,31 @@
   background-position: center;
 }
 
-.tagline {
-  padding-top: 350px;
+.banner-content {
+
   p {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 400;
     font-family: 'PT Sans', sans-serif;
     letter-spacing: 1px;
+    margin: 2px;
   }
+}
+
+.opening-hours {
+  opacity: 0.9;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: $blue;
+  padding: 5px 40px;
+}
+
+.address {
+  opacity: 0.9;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: $blue;
+  padding: 5px 40px;
 }

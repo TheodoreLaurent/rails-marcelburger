@@ -15,13 +15,19 @@
     <meta property="og:title" content="marcel Gourmet Burger" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<%= request.original_url %>" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content=logo-marcel-lg.jpg />
     <meta property="og:description" content="" />
-    <meta property="og:site_name" content="marcelgourmetburger.com"
+    <meta property="og:site_name" content="marcelgourmetburger.com"/>
 
-
-  </head>
+</head>
   <body>
+
+    <% if content_for?(:navbar) %>
+       <%= yield(:navbar) %>
+    <% else %>
+      <%= render 'shared/navbar' %>
+    <% end %>
+
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
