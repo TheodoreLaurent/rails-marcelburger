@@ -1,12 +1,21 @@
-<div class="banner" style="background-image: url('<%= image_path("marceltoppic.jpg") %>'); ">
+
+<div class="banner" style="background-image: url('<%= image_path("marcelLPHD.jpg") %>'); ">
   <div class="banner-content">
-    <div class="tagline">
-      <p>Welcome to Marcel Gourmet Burger</p>
-      <p>Website coming soon</p>
+    <div class="opening-hours">
+      <p><strong><%= t('opening-days') %></strong></p>
+      <p><strong><%= t('opening-hours') %></strong></p>
     </div>
 
-    <%= t('hello') %>
-<!--     <a id="banner-arrow"><%#=image_tag("arrow.png")%></a>
- -->
+    <div class="address">
+      <p><strong><%= t('address') %> </strong> </p>
+      <p><strong><%= t('city') %></strong></p>
+    </div>
+
+    <%#= t('hello') %>
+
+<!-- FAQS link -->
+      <%#= link_to t(".top_call_to_action", default: "FAQs"), faq_path, class: " navbar-socialive-link faq-navbar" %>
+
    </div>
 </div>
+
