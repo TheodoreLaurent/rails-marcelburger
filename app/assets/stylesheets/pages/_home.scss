@@ -39,7 +39,8 @@
 .coming-soon {
   position: fixed;
   top: 250px;
-  width: 400px;
+  width: 430px;
+  max-width: 95%;
   padding: 10px;
   margin: auto; /* Will not center vertically and won't work in IE6/7. */
   left: 0;
